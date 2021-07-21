@@ -1,0 +1,35 @@
+{
+  "name": "front-end-gulp4-starter-kit",
+  "version": "1.0.0",
+  "description": "Advanced Front-End Gulp 4 Starter Kit for modern web development",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevaricaf/front-end-gulp4-starter-kit.git"
+  },
+  "keywords": [
+    "Front-End",
+    "Front-End-Starter-Kit",
+    "HTML",
+    "CSS",
+    "SASS",
+    "SCSS",
+    "JavaScript",
+    "EcmaScript",
+    "ES6",
+    "jQuery",
+    "Node",
+    "npm",
+    "Gulp",
+    "git"
+  ],
+  "author": "Stevan Stojić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevaricaf/front-end-gulp4-starter-kit/issues"
+  },
+  "homepage": "https://github.com/stevaricaf/front-end-gulp4-starter-kit#readme"
+}
