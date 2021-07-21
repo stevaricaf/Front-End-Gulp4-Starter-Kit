@@ -33,11 +33,17 @@
   },
   "homepage": "https://github.com/stevaricaf/front-end-gulp4-starter-kit#readme",
   "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
     "autoprefixer": "^10.3.1",
     "browser-sync": "^2.27.4",
+    "browserify": "^17.0.0",
     "cssnano": "^5.0.7",
     "dustjs-linkedin": "^2.7.5",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
     "gulp-dust-html": "^0.0.6",
     "gulp-html-beautify": "^1.0.1",
     "gulp-notify": "^4.0.0",
@@ -47,9 +53,12 @@
     "gulp-sass": "^5.0.0",
     "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^2.0.0",
     "postcss": "^8.3.5",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "sass": "^1.35.2"
+    "sass": "^1.35.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "sasslintConfig": "sass-lint-config.yml"
 }
