@@ -31,5 +31,12 @@
   "bugs": {
     "url": "https://github.com/stevaricaf/front-end-gulp4-starter-kit/issues"
   },
-  "homepage": "https://github.com/stevaricaf/front-end-gulp4-starter-kit#readme"
+  "homepage": "https://github.com/stevaricaf/front-end-gulp4-starter-kit#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.4",
+    "dustjs-linkedin": "^2.7.5",
+    "gulp": "^4.0.2",
+    "gulp-dust-html": "^0.0.6",
+    "gulp-html-beautify": "^1.0.1"
+  }
 }
