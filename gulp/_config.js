@@ -23,6 +23,17 @@ module.exports = {
         merge: ['root/src/js/addons.js', 'root/src/js/main.js'],
         remove: ['root/src/js/addons.js', 'root/src/js/main.js'],
         watch: ['root/js/**/*.js', '!root/js/libs/**/*.js', 'root/js/plugins/**/*.js']
+    },
+    icon: {
+        src: 'root/assets/icons/*.svg',
+        dist: 'root/assets/fonts/dist/',
+        config: 'root/config/iconfont.scss',
+        targetPath: '../../../scss/fonts/_iconfont.scss',
+        fontPath: '../../../assets/fonts/dist/'
+    },
+    image: {
+        src: ['root/assets/images/*', '!root/assets/images/dist'],
+        dist: 'root/assets/images/dist/'
     }
     
 }

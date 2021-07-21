@@ -7,7 +7,9 @@ const {
     _html       = require('./gulp/_html'),
     _style      = require('./gulp/_style'),
     _lint       = require('./gulp/_lint'),
-    _js         = require('./gulp/_javascript');
+    _js         = require('./gulp/_javascript'),
+    _iconfont   = require('./gulp/_iconfont'),
+    _image      = require('./gulp/_image');
 
 // ---------- Gulp exports ---------- //
 
@@ -27,6 +29,12 @@ exports.jsMain      = _js.main;
 exports.jsAddons    = _js.addons;
 exports.jsMerge     = _js.merge;
 exports.jsRemove    = _js.remove;
+
+// Iconfont exports
+exports.iconfont    = _iconfont.iconfont;
+
+// Image exports
+exports.imgmin      = _image.imgmin;
 
 exports.styleBuild  = styleBuild;
 exports.jsBuild     = jsBuild;
