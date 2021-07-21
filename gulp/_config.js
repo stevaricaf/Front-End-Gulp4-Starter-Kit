@@ -34,6 +34,24 @@ module.exports = {
     image: {
         src: ['root/assets/images/*', '!root/assets/images/dist'],
         dist: 'root/assets/images/dist/'
+    },
+    build: {
+        template: {
+            src: 'root/*.html',
+            dest: './'
+        },
+        src: {
+            src: 'root/src/**',
+            dest: './src/'
+        },
+        asset: {
+            src: 'root/assets/**',
+            dest: './assets/'
+        },
+        favicon: {
+            src: 'root/favicon.ico',
+            dest: './'
+        }
     }
     
 }
